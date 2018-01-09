@@ -1,0 +1,23 @@
+{
+  "name": "lch/cms-bundle",
+  "type": "symfony-bundle",
+  "description": "A complete and full Cms based on Symfony",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthieu Leorat",
+      "email": "matthieu.leorat@protonmail.com"
+    }
+  ],
+  "require": {
+    "doctrine/cache": "~1.5",
+    "doctrine/common": "^2.4.0",
+    "doctrine/doctrine-bundle": "~1.2",
+    "doctrine/orm": "~2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lch\\CmsBundle\\": ""
+    }
+  }
+}
